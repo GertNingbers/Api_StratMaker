@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\PrivateChats;
 use Illuminate\Http\Request;
 
-class PrivateChatsController extends Controller
+class PrivateChatController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class PrivateChatsController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(PrivateChats $privateChats)
+    public function show(PrivateChat $privateChat)
     {
         //
     }
@@ -42,7 +42,7 @@ class PrivateChatsController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(PrivateChats $privateChats)
+    public function edit(PrivateChat $privateChat)
     {
         //
     }
@@ -50,7 +50,7 @@ class PrivateChatsController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, PrivateChats $privateChats)
+    public function update(Request $request, PrivateChat $privateChat)
     {
         //
     }
@@ -58,7 +58,7 @@ class PrivateChatsController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(PrivateChats $privateChats)
+    public function destroy(PrivateChat $privateChat)
     {
         //
     }

@@ -65,7 +65,7 @@ class User extends Authenticatable
     }
     public function privateChats()
     {
-        return $this->belongsToMany(PrivateChats::class);
+        return $this->belongsToMany(PrivateChat::class);
     }
     public function likes()
     {
@@ -74,5 +74,9 @@ class User extends Authenticatable
     public function requests()
     {
         return $this->hasMany(Request::class);
+    }
+    public function groupMessage()
+    {
+        return $this->hasMany(GroupMessage::class);
     }
 }

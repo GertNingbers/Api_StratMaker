@@ -10,7 +10,7 @@ class Gadget extends Model
         'game_id',
         'name',
         'description',
-        'img_gadget',
+        'img_gadget_path',
     ];
 
     // Relations

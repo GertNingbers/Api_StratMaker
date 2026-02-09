@@ -15,9 +15,9 @@ class Operator extends Model
         'country',
         'affiliation',
         'release_date',
-        'img_op_logo',
-        'img_op_full',
-        'img_op_ability',
+        'img_op_logo_path',
+        'img_op_full_path',
+        'img_op_ability_path',
         'op_ability_desc',
     ];
 

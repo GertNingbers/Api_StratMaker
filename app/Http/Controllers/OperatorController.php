@@ -34,7 +34,7 @@ class OperatorController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Operator $operators)
+    public function show(Operator $operator)
     {
         //
     }
@@ -42,7 +42,7 @@ class OperatorController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Operator $operators)
+    public function edit(Operator $operator)
     {
         //
     }
@@ -50,7 +50,7 @@ class OperatorController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Operator $operators)
+    public function update(Request $request, Operator $operator)
     {
         //
     }
@@ -58,7 +58,7 @@ class OperatorController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Operator $operators)
+    public function destroy(Operator $operator)
     {
         //
     }

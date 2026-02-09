@@ -10,9 +10,9 @@ class Weapon extends Model
         'game_id',
         'name',
         'type',
-        'img_weapon',
         'damage',
         'fire_rate',
+        'img_weapon_path',
     ];
 
     // Relations

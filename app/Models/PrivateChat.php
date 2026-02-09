@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class PrivateChats extends Model
+class PrivateChat extends Model
 {
    // Relations
     public function users()

@@ -12,9 +12,9 @@ class Strat extends Model
         'game_id',
         'map_id',
         'views',
-        'strat_name',
-        'strat_context',
-        'strat_status',
+        'name',
+        'disscription',
+        'status',
         'side',
     ];
 

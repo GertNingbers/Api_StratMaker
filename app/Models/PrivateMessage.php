@@ -14,7 +14,7 @@ class PrivateMessage extends Model
     // Relations
     public function chat()
     {
-        return $this->belongsTo(PrivateChats::class);
+        return $this->belongsTo(PrivateChat::class);
     }
     public function user()
     {

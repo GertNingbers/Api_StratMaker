@@ -4,12 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class GroupMessages extends Model
+class GroupMessage extends Model
 {
     protected $fillable = [
         'user_id', 
         'group_id', 
-        'message_content',
+        'message',
     ];
     
     

@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('friends', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
+            $table->enum('status', ['muted', 'blocked', 'none'])->default('none');
             $table->timestamps();
         });
     }
